@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="tv_show_header">Quote of the day</string>
+    <string name="tv_show_date"></string>
+    <string name="tv_show_quotes"></string>
+    <string name="tvinfo">Press to get quotes</string>
+    <string name="btngetquotes">Get quotes!</string>
+</resources>

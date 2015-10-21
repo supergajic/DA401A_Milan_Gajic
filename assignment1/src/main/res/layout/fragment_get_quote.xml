@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentGetQuote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.tsroax.assignment_1.GetQuote"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvinfo"
+        android:layout_weight="0.04"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btngetquote"
+        android:text="@string/btngetquotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="changeFragment" />
+
+</LinearLayout>

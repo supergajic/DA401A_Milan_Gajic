@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="se.mah.tsroax.assignment_1.ShowQuote">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_show_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="@string/tv_show_header"/>
+
+    <TextView
+        android:id="@+id/tv_show_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="@string/tv_show_date"/>
+
+    <TextView
+        android:id="@+id/tv_show_quotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_show_quotes" />
+
+</LinearLayout>
