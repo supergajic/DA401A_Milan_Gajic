@@ -1,0 +1,53 @@
+<LinearLayout
+    android:id="@+id/detail_movie_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="se.dropmedia.milan.assignment_2.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/detail_image"
+        android:src="@drawable/eat_sleep_die_fanart"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="vertical"
+        android:layout_marginTop="-66dp"
+        android:background="#80000000">
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:text="TITLE"/>
+
+    <TextView
+        android:id="@+id/detail_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="13sp"
+        android:textColor="#FFFFFF"
+        android:text="YEAR"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detail_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="DESCRIPTION"/>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.dropmedia.milan.assignment_2.OverviewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:drawSelectorOnTop="true"
+        android:layout_gravity="center"
+        android:numColumns="2"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        android:columnWidth="300dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"/>
+
+</RelativeLayout>

@@ -11,6 +11,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/assignment1" />
+            <option value="$PROJECT_DIR$/assignment2" />
+            <option value="$PROJECT_DIR$/assignment3" />
+            <option value="$PROJECT_DIR$/assignment4" />
+            <option value="$PROJECT_DIR$/assignment5" />
+            <option value="$PROJECT_DIR$/assignment_5" />
           </set>
         </option>
       </GradleProjectSettings>
