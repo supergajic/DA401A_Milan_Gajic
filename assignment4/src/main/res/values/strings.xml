@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment_4</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="question_1">Whats the capital of Sweden?</string>
+    <string name="question_2">Whats the capital of Denmark?</string>
+    <string name="question_3">Whats the capital of Norway?</string>
+    <string name="question_4">Whats the capital of Germany?</string>
+</resources>

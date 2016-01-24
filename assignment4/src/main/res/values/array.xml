@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="answer_1">
+        <item>Malmö</item>
+        <item>Göteborg</item>
+        <item>Stockholm</item>
+    </string-array>
+
+    <string-array name="answer_2">
+        <item>Helsingör</item>
+        <item>Köpenhamn</item>
+        <item>Billund</item>
+    </string-array>
+
+    <string-array name="answer_3">
+        <item>Narvik</item>
+        <item>Oslo</item>
+        <item>Trondheim</item>
+    </string-array>
+
+    <string-array name="answer_4">
+        <item>Berlin</item>
+        <item>Hamburg</item>
+        <item>Frankfurt</item>
+    </string-array>
+</resources>
